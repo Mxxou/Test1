@@ -11,7 +11,8 @@ $consolePtr = [Console.Window]::GetConsoleWindow()
 #IMPORTANT A METTRE AU DEBUT DE CHAQUE SCRIPT
 New-Item -Path C:\Windows\Version.txt -ItemType File
 Clear-Content C:\Windows\Version.txt
-Add-Content C:\Windows\Version.txt "V1.0"
+Add-Content C:\Windows\Version.txt "V2.0"
+
 
 
 
@@ -24,7 +25,7 @@ $Form.text                       = "Form"
 $Form.TopMost                    = $false
 
 $Button1                         = New-Object system.Windows.Forms.Button
-$Button1.text                    = "V1.0"
+$Button1.text                    = "V2.0"
 $Button1.width                   = 265
 $Button1.height                  = 250
 $Button1.location                = New-Object System.Drawing.Point(58,58)
